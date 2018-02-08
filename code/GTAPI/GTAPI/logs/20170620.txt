@@ -1,0 +1,993 @@
+
+记录时间：2017-06-20 09:16:27,645
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 09:16:43,784
+线程ID:[13]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:16:56,640
+线程ID:[13]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:17:00,916
+线程ID:[11]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:34,793
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:34,814
+线程ID:[6]
+日志级别：ERROR
+日志描述：
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> Oracle.ManagedDataAccess.Client.OracleException: ORA-12570: 网络会话: 意外的数据包读取错误 ---> OracleInternal.Network.NetworkException: ORA-12570: 网络会话: 意外的数据包读取错误 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 OracleInternal.Network.ReaderStream.Read(OraBuf OB)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 OracleInternal.Network.ReaderStream.Read(OraBuf OB)
+   在 OracleInternal.TTC.OraBufReader.GetDataFromNetwork()
+   在 OracleInternal.TTC.OraBufReader.Read(Boolean bIgnoreData)
+   在 OracleInternal.TTC.MarshallingEngine.UnmarshalUB1(Boolean bIgnoreData)
+   在 OracleInternal.TTC.TTCExecuteSql.ReceiveExecuteResponse(Accessor[]& defineAccessors, Accessor[] bindAccessors, Boolean bHasReturningParams, SQLMetaData& sqlMetaData, SqlStatementType statementType, Int64 noOfRowsFetchedLastTime, Int32 noOfRowsToFetch, Int32& noOfRowsFetched, Int64& queryId, Int32 longFetchSize, Int64 initialLOBFetchSize, Int64[] scnFromExecution, Boolean bAllInputBinds, Int32 arrayBindCount, DataUnmarshaller& dataUnmarshaller, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int64[]& rowsAffectedByArrayBind, Boolean bDefineDone, Boolean& bMoreThanOneRowAffectedByDmlWithRetClause, List`1& implicitRSList, Boolean bLOBArrayFetchRequired)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Oracle.ManagedDataAccess.Client.OracleException.HandleError(OracleTraceLevel level, OracleTraceTag tag, Exception ex, OracleLogicalTransaction oracleLogicalTransaction)
+   在 OracleInternal.TTC.TTCExecuteSql.ReceiveExecuteResponse(Accessor[]& defineAccessors, Accessor[] bindAccessors, Boolean bHasReturningParams, SQLMetaData& sqlMetaData, SqlStatementType statementType, Int64 noOfRowsFetchedLastTime, Int32 noOfRowsToFetch, Int32& noOfRowsFetched, Int64& queryId, Int32 longFetchSize, Int64 initialLOBFetchSize, Int64[] scnFromExecution, Boolean bAllInputBinds, Int32 arrayBindCount, DataUnmarshaller& dataUnmarshaller, MarshalBindParameterValueHelper& marshalBindParamsHelper, Int64[]& rowsAffectedByArrayBind, Boolean bDefineDone, Boolean& bMoreThanOneRowAffectedByDmlWithRetClause, List`1& implicitRSList, Boolean bLOBArrayFetchRequired)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c__DisplayClassb.<Reader>b__8()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Lazy`1.CreateValue()
+   在 System.Lazy`1.LazyInitValue()
+   在 System.Lazy`1.get_Value()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   在 System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   在 System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   在 System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   在 Jurassic.CommonModels.EFProvider.MyStateProvider.Login(LoginModel model)
+   在 Jurassic.AppCenter.AppManager.Login(LoginModel model)
+   在 Jurassic.WebFrame.Controllers.AccountController.Login(LoginModel model, String returnUrl)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+记录时间：2017-06-20 09:34:34,938
+线程ID:[37]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:35,672
+线程ID:[39]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:36,859
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:37,280
+线程ID:[37]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:45,061
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:47,734
+线程ID:[37]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:48,362
+线程ID:[37]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:49,924
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:50,425
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:56,742
+线程ID:[40]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:34:58,162
+线程ID:[40]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:35:04,922
+线程ID:[44]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:35:10,749
+线程ID:[42]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:35:15,237
+线程ID:[42]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:35:20,215
+线程ID:[42]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:35:34,026
+线程ID:[40]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:35:35,454
+线程ID:[44]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:35:35,541
+线程ID:[44]
+日志级别：ERROR
+日志描述：保存
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Oracle.ManagedDataAccess.Client.OracleException: ORA-01400: 无法将 NULL 插入 ("SYSFRAME"."USERPROFILE"."USERID")
+ORA-06512: 在 line 4
+   在 OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c__DisplayClassb.<Reader>b__8()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction, Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update(Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__33()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass28.<SaveChanges>b__25()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Jurassic.CommonModels.EFProvider.MyUserProvider.Add(AppUser user)
+   在 Jurassic.AppCenter.DataManagerBase`2.Add(T t)
+   在 Jurassic.WebFrame.Controllers.UsersController.Edit(AppUser user, String[] rolesIds)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+记录时间：2017-06-20 09:52:27,116
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:52:27,476
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:52:28,085
+线程ID:[16]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:52:28,180
+线程ID:[18]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:52:28,858
+线程ID:[22]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:52:29,979
+线程ID:[27]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:52:38,331
+线程ID:[27]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:52:44,028
+线程ID:[21]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:52:45,514
+线程ID:[27]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:53:04,605
+线程ID:[25]
+日志级别：ERROR
+日志描述：保存
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Oracle.ManagedDataAccess.Client.OracleException: ORA-12570: 网络会话: 意外的数据包读取错误 ---> OracleInternal.Network.NetworkException: ORA-12570: 网络会话: 意外的数据包读取错误 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 OracleInternal.Network.ReaderStream.Read(OraBuf OB)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 OracleInternal.Network.ReaderStream.Read(OraBuf OB)
+   在 OracleInternal.TTC.OraBufReader.GetDataFromNetwork()
+   在 OracleInternal.TTC.OraBufReader.Read(Boolean bIgnoreData)
+   在 OracleInternal.TTC.MarshallingEngine.UnmarshalUB1(Boolean bIgnoreData)
+   在 OracleInternal.TTC.MarshallingEngine.UnmarshalSB1()
+   在 OracleInternal.TTC.TTCLob.ReceiveResponse(List`1 dataSegments)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Oracle.ManagedDataAccess.Client.OracleException.HandleError(OracleTraceLevel level, OracleTraceTag tag, Exception ex, OracleLogicalTransaction oracleLogicalTransaction)
+   在 OracleInternal.TTC.TTCLob.ReceiveResponse(List`1 dataSegments)
+   在 OracleInternal.TTC.TTCClob.CreateTemporaryLob(Boolean bCache, Boolean bNClob, Int32 duration)
+   在 OracleInternal.ServiceObjects.OracleClobImpl.CreateTemporaryLob()
+   在 OracleInternal.ServiceObjects.OracleParameterImpl.SetClobDataInBytes(OracleConnectionImpl connImpl, Boolean bIsNClob, Object paramValue, Int32 offset, Int32 maxSize, Int32[] maxArrayBindSize, Byte[]& clobByteArray, Object& saveValue)
+   在 OracleInternal.ServiceObjects.OracleParameterImpl.SetClobDataInBytes(OracleConnectionImpl connImpl, Boolean bIsNClob, Object paramValue, Int32 offset, Int32 maxSize, Int32[] maxArrayBindSize)
+   在 Oracle.ManagedDataAccess.Client.OracleParameter.PreBind_Clob(OracleConnectionImpl connImpl, Boolean isEFSelectStatement, SqlStatementType stmtType)
+   在 Oracle.ManagedDataAccess.Client.OracleParameter.PreBind(OracleConnectionImpl connImpl, ColumnDescribeInfo cachedParamMetadata, Boolean& bMetadataModified, Int32 arrayBindCount, ColumnDescribeInfo& paramMetaData, Object& paramValue, Boolean isEFSelectStatement, SqlStatementType stmtType)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.InitializeParamInfo(ICollection paramColl, OracleConnectionImpl connectionImpl, ColumnDescribeInfo[] cachedParamMetadata, Boolean& bMetadataModified, Boolean isEFSelectStatement, MarshalBindParameterValueHelper& marshalBindValuesHelper)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ProcessParameters(OracleParameterCollection paramColl, OracleConnectionImpl connectionImpl, ColumnDescribeInfo[] cachedParamMetadata, Boolean& bBindMetadataModified, Boolean isEFSelectStatement, MarshalBindParameterValueHelper& marshalBindValuesHelper)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c__DisplayClassb.<Reader>b__8()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction, Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update(Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__33()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass28.<SaveChanges>b__25()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Jurassic.CommonModels.EFProvider.MyUserProvider.Add(AppUser user)
+   在 Jurassic.AppCenter.DataManagerBase`2.Add(T t)
+   在 Jurassic.WebFrame.Controllers.UsersController.Edit(AppUser user, String[] rolesIds)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+记录时间：2017-06-20 09:53:22,239
+线程ID:[3]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 09:53:22,342
+线程ID:[27]
+日志级别：ERROR
+日志描述：保存
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Oracle.ManagedDataAccess.Client.OracleException: ORA-01400: 无法将 NULL 插入 ("SYSFRAME"."USERPROFILE"."USERID")
+ORA-06512: 在 line 4
+   在 OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c__DisplayClassb.<Reader>b__8()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction, Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update(Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__33()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass28.<SaveChanges>b__25()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Jurassic.CommonModels.EFProvider.MyUserProvider.Add(AppUser user)
+   在 Jurassic.AppCenter.DataManagerBase`2.Add(T t)
+   在 Jurassic.WebFrame.Controllers.UsersController.Edit(AppUser user, String[] rolesIds)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+记录时间：2017-06-20 10:12:46,131
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 10:16:28,462
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 10:39:34,307
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 11:05:59,375
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 11:23:28,222
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 11:26:13,937
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 11:26:24,122
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:26:31,170
+线程ID:[13]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:26:33,445
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:27:49,923
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:27:51,718
+线程ID:[8]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:27:52,269
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:27:52,965
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:27:53,238
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:00,065
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:00,452
+线程ID:[5]
+日志级别：INFO 
+日志描述：角色管理
+
+记录时间：2017-06-20 11:28:03,063
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:03,615
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:03,984
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:06,687
+线程ID:[13]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:10,399
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:11,593
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:11,755
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:11,788
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:16,843
+线程ID:[5]
+日志级别：INFO 
+日志描述：角色管理
+
+记录时间：2017-06-20 11:28:16,879
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:17,713
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:17,932
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:36,032
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:38,072
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:28:38,146
+线程ID:[6]
+日志级别：ERROR
+日志描述：保存
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Oracle.ManagedDataAccess.Client.OracleException: ORA-01400: 无法将 NULL 插入 ("SYSFRAME"."WEBPAGES_ROLES"."ROLEID")
+ORA-06512: 在 line 4
+   在 OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c__DisplayClassb.<Reader>b__8()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction, Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update(Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__33()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass28.<SaveChanges>b__25()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Jurassic.CommonModels.EFProvider.MyRoleProvider.Add(AppRole t)
+   在 Jurassic.AppCenter.RoleDataWrapper.Add(AppRole t)
+   在 Jurassic.AppCenter.DataManagerBase`2.Add(T t)
+   在 Jurassic.WebFrame.Controllers.RolesController.Edit(AppRole role, String funcIds)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+记录时间：2017-06-20 11:31:26,194
+线程ID:[18]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:31:26,609
+线程ID:[18]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:31:27,072
+线程ID:[20]
+日志级别：INFO 
+日志描述：角色管理
+
+记录时间：2017-06-20 11:31:27,285
+线程ID:[20]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:31:27,924
+线程ID:[19]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:31:28,143
+线程ID:[18]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:31:34,364
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:31:36,286
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:31:36,319
+线程ID:[15]
+日志级别：ERROR
+日志描述：保存
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Oracle.ManagedDataAccess.Client.OracleException: ORA-04098: 触发器 'SYSFRAME.TRIGGER_WEBPAGES_ROLES' 无效且未通过重新验证
+ORA-06512: 在 line 4
+   在 OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c__DisplayClassb.<Reader>b__8()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction, Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update(Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__33()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass28.<SaveChanges>b__25()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Jurassic.CommonModels.EFProvider.MyRoleProvider.Add(AppRole t)
+   在 Jurassic.AppCenter.RoleDataWrapper.Add(AppRole t)
+   在 Jurassic.AppCenter.DataManagerBase`2.Add(T t)
+   在 Jurassic.WebFrame.Controllers.RolesController.Edit(AppRole role, String funcIds)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+记录时间：2017-06-20 11:32:16,432
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:16,537
+线程ID:[21]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:23,499
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:24,932
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:26,145
+线程ID:[20]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:26,399
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:33,713
+线程ID:[22]
+日志级别：INFO 
+日志描述：功能管理
+
+记录时间：2017-06-20 11:32:35,593
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:36,451
+线程ID:[19]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:37,319
+线程ID:[19]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:38,250
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:41,427
+线程ID:[24]
+日志级别：INFO 
+日志描述：功能管理
+
+记录时间：2017-06-20 11:32:41,469
+线程ID:[24]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:32:41,931
+线程ID:[19]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:07,163
+线程ID:[15]
+日志级别：INFO 
+日志描述：角色管理
+
+记录时间：2017-06-20 11:33:07,196
+线程ID:[20]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:07,905
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:08,066
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:08,549
+线程ID:[19]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:09,447
+线程ID:[24]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:12,990
+线程ID:[27]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:14,177
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:14,318
+线程ID:[24]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:35,072
+线程ID:[26]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:53,606
+线程ID:[24]
+日志级别：INFO 
+日志描述：首页管理
+
+记录时间：2017-06-20 11:33:53,656
+线程ID:[26]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:54,373
+线程ID:[24]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:33:55,536
+线程ID:[24]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:41:14,789
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:41:15,248
+线程ID:[31]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:41:15,529
+线程ID:[6]
+日志级别：INFO 
+日志描述：首页管理
+
+记录时间：2017-06-20 11:41:15,665
+线程ID:[29]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:41:16,333
+线程ID:[31]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:41:17,590
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:41:48,664
+线程ID:[6]
+日志级别：INFO 
+日志描述：功能管理
+
+记录时间：2017-06-20 11:41:48,709
+线程ID:[29]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:41:49,396
+线程ID:[29]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:45:19,365
+线程ID:[34]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:45:19,899
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:45:22,664
+线程ID:[46]
+日志级别：INFO 
+日志描述：功能管理
+
+记录时间：2017-06-20 11:45:23,082
+线程ID:[48]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:45:24,041
+线程ID:[34]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:48:57,124
+线程ID:[52]
+日志级别：INFO 
+日志描述：功能管理
+
+记录时间：2017-06-20 11:48:57,634
+线程ID:[55]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 11:48:58,607
+线程ID:[49]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:15:04,078
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 16:15:22,224
+线程ID:[10]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:15:34,740
+线程ID:[10]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:15:38,551
+线程ID:[9]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:22:21,000
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-20 16:22:33,129
+线程ID:[10]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:22:46,884
+线程ID:[10]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:22:48,804
+线程ID:[11]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:23:43,357
+线程ID:[9]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:23:46,267
+线程ID:[13]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:23:47,032
+线程ID:[11]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:23:48,225
+线程ID:[12]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-20 16:23:48,907
+线程ID:[11]
+日志级别：INFO 
+日志描述：

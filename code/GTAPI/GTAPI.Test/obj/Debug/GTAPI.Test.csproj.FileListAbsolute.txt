@@ -1,0 +1,10 @@
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\bin\Debug\GTAPI.Test.dll
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\bin\Debug\GTAPI.Test.pdb
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\bin\Debug\GTAPI.Oracle.DataBase.dll
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\bin\Debug\Oracle.ManagedDataAccess.dll
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\bin\Debug\GTAPI.Oracle.DataBase.pdb
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\obj\Debug\GTAPI.Test.csprojResolveAssemblyReference.cache
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\obj\Debug\GTAPI.Test.dll
+E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPI\GTAPI.Test\obj\Debug\GTAPI.Test.pdb

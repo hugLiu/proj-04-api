@@ -1,0 +1,82 @@
+﻿{
+	"action": 0,
+	"naturekey": "",
+	"fileIDs": ["12389"],
+	"kmd": {
+		"dc": {
+			"type": "体裁1",
+			"language": "zh",
+			"relation": ["属于", "用于", "从属", "哈哈"],
+			"period": ["小", "中", "大"],
+			"rights": "Copy Right@jurassic 2017",
+			"status": "已审核",
+			"title": [{
+				"type": "Formal",
+				"text": "中国石油"
+			}],
+			"contributor": [{
+				"type": "Author",
+				"name": "百度"
+			}, {
+				"type": "Auditor",
+				"name": "田泽玉"
+			}],
+			"subject": ["珠江口", "盆地"],
+			"description": [{
+				"type": "Abstract",
+				"text": "这是一条摘要"
+			}, {
+				"type": "Catalogue",
+				"text": "这是目录"
+			}, {
+				"type": "Introduction",
+				"text": "这是引言"
+			}, {
+				"type": "Summary",
+				"text": "拜拜了您"
+			}],
+			"date": [{
+				"type": "Created",
+				"value": "2017-01-16T00:27:56Z"
+			}, {
+				"type": "Valid",
+				"value": "2017-01-17T00:28:05Z"
+			}, {
+				"type": "Available",
+				"value": "2017-01-17T00:27:58Z"
+			}, {
+				"type": "Issued",
+				"value": "2017-01-17T00:28:09Z"
+			}, {
+				"type": "Submitted",
+				"value": "2017-01-16T00:28:04Z"
+			}],
+			"region": [{
+				"type": "Country",
+				"name": "中国"
+			}]
+		},
+		"ep": {
+			"project": "GeoTopic 1.0",
+			"producttype": "珠江口盆地",
+			"tool": "知识配置工具",
+			"scope": "100",
+			"bo": [{
+				"type": "Stratum",
+				"value": "一层"
+			}, {
+				"type": "Well",
+				"value": "深井"
+			}]
+		}
+	},
+	"option": {
+		"authentic": false,
+		"autocomplement": false,
+		"uploadedby": "pmis",
+		"uploadeddate": "2017-01-16T16:55:50.197724+08:00",
+		"contact": "",
+		"application": "",
+		"task": ""
+	}
+}

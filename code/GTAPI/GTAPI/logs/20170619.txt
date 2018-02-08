@@ -1,0 +1,504 @@
+
+记录时间：2017-06-19 13:56:53,910
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 14:02:03,568
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 14:06:40,342
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 14:06:54,085
+线程ID:[10]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:00,307
+线程ID:[12]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:03,193
+线程ID:[12]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:12,290
+线程ID:[10]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:15,908
+线程ID:[16]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:16,434
+线程ID:[16]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:17,121
+线程ID:[16]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:17,368
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:23,770
+线程ID:[15]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:07:25,223
+线程ID:[10]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 14:15:13,052
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 14:27:03,874
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 14:28:38,976
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 15:03:11,053
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 15:17:31,816
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 15:22:37,067
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 15:27:37,076
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 15:30:33,191
+线程ID:[12]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 15:56:26,928
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 15:57:13,507
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 16:08:55,625
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 16:18:26,594
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 16:20:06,904
+线程ID:[15]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 16:28:34,713
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 16:37:02,323
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 18:17:43,536
+线程ID:[1]
+日志级别：INFO 
+日志描述：Application_Start
+
+记录时间：2017-06-19 18:17:59,026
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:18:08,968
+线程ID:[8]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:18:11,727
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:18:40,779
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:18:43,674
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:18:44,505
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:18:45,515
+线程ID:[9]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:18:45,836
+线程ID:[9]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:19:00,127
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:19:04,864
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:19:08,382
+线程ID:[6]
+日志级别：INFO 
+日志描述：客户组授权
+
+记录时间：2017-06-19 18:19:14,842
+线程ID:[9]
+日志级别：INFO 
+日志描述：服务节点
+
+记录时间：2017-06-19 18:19:16,989
+线程ID:[6]
+日志级别：INFO 
+日志描述：数据节点
+
+记录时间：2017-06-19 18:19:19,167
+线程ID:[7]
+日志级别：INFO 
+日志描述：服务节点
+
+记录时间：2017-06-19 18:19:19,188
+线程ID:[5]
+日志级别：INFO 
+日志描述：数据节点
+
+记录时间：2017-06-19 18:19:19,264
+线程ID:[6]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:19:19,716
+线程ID:[16]
+日志级别：INFO 
+日志描述：客户组授权
+
+记录时间：2017-06-19 18:19:20,131
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:19:20,323
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:19:20,604
+线程ID:[16]
+日志级别：INFO 
+日志描述：数据节点
+
+记录时间：2017-06-19 18:19:20,716
+线程ID:[9]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:19:21,477
+线程ID:[7]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:19:21,666
+线程ID:[5]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:38,619
+线程ID:[17]
+日志级别：INFO 
+日志描述：功能管理
+
+记录时间：2017-06-19 18:25:40,561
+线程ID:[18]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:41,295
+线程ID:[17]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:46,498
+线程ID:[19]
+日志级别：INFO 
+日志描述：客户组授权
+
+记录时间：2017-06-19 18:25:46,554
+线程ID:[22]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:47,864
+线程ID:[22]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:51,727
+线程ID:[19]
+日志级别：INFO 
+日志描述：数据节点
+
+记录时间：2017-06-19 18:25:51,785
+线程ID:[22]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:52,406
+线程ID:[22]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:52,585
+线程ID:[21]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:55,345
+线程ID:[19]
+日志级别：INFO 
+日志描述：服务节点
+
+记录时间：2017-06-19 18:25:55,386
+线程ID:[21]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:55,993
+线程ID:[21]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:25:56,166
+线程ID:[22]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:27:00,719
+线程ID:[27]
+日志级别：INFO 
+日志描述：客户组授权
+
+记录时间：2017-06-19 18:27:00,889
+线程ID:[31]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:27:01,680
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:27:04,163
+线程ID:[24]
+日志级别：INFO 
+日志描述：角色管理
+
+记录时间：2017-06-19 18:27:06,783
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:27:07,468
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:27:09,792
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:27:15,407
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:27:22,758
+线程ID:[30]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:27:22,949
+线程ID:[26]
+日志级别：ERROR
+日志描述：保存
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Oracle.ManagedDataAccess.Client.OracleException: ORA-01400: 无法将 NULL 插入 ("SYSFRAME"."USERPROFILE"."USERID")
+ORA-06512: 在 line 4
+   在 OracleInternal.ServiceObjects.OracleConnectionImpl.VerifyExecution(Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, SqlStatementType sqlStatementType, Int32 arrayBindCount, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.VerifyExecution(OracleConnectionImpl connectionImpl, Int32& cursorId, Boolean bThrowArrayBindRelatedErrors, OracleException& exceptionForArrayBindDML, Boolean& hasMoreRowsInDB, Boolean bFirstIterationDone)
+   在 OracleInternal.ServiceObjects.OracleCommandImpl.ExecuteReader(String commandText, OracleParameterCollection paramColl, CommandType commandType, OracleConnectionImpl connectionImpl, OracleDataReaderImpl& rdrImpl, Int32 longFetchSize, Int64 clientInitialLOBFS, OracleDependencyImpl orclDependencyImpl, Int64[] scnForExecution, Int64[]& scnFromExecution, OracleParameterCollection& bindByPositionParamColl, Boolean& bBindParamPresent, Int64& internalInitialLOBFS, OracleException& exceptionForArrayBindDML, OracleConnection connection, OracleLogicalTransaction& oracleLogicalTransaction, IEnumerable`1 adrianParsedStmt, Boolean isDescribeOnly, Boolean isFromEF)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c__DisplayClassb.<Reader>b__8()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction, Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update(Boolean throwOnClosedConnection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__33()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy)
+   在 System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass28.<SaveChanges>b__25()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 Jurassic.CommonModels.EFProvider.MyUserProvider.Add(AppUser user)
+   在 Jurassic.AppCenter.DataManagerBase`2.Add(T t)
+   在 Jurassic.WebFrame.Controllers.UsersController.Edit(AppUser user, String[] rolesIds)
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+
+记录时间：2017-06-19 18:28:14,818
+线程ID:[26]
+日志级别：INFO 
+日志描述：角色管理
+
+记录时间：2017-06-19 18:28:15,168
+线程ID:[24]
+日志级别：INFO 
+日志描述：功能管理
+
+记录时间：2017-06-19 18:28:15,220
+线程ID:[29]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:16,019
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:18,946
+线程ID:[26]
+日志级别：INFO 
+日志描述：客户组授权
+
+记录时间：2017-06-19 18:28:18,987
+线程ID:[24]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:19,759
+线程ID:[26]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:19,852
+线程ID:[24]
+日志级别：INFO 
+日志描述：数据节点
+
+记录时间：2017-06-19 18:28:19,964
+线程ID:[26]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:20,679
+线程ID:[26]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:20,876
+线程ID:[24]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:21,597
+线程ID:[26]
+日志级别：INFO 
+日志描述：服务节点
+
+记录时间：2017-06-19 18:28:21,664
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:22,294
+线程ID:[25]
+日志级别：INFO 
+日志描述：
+
+记录时间：2017-06-19 18:28:22,460
+线程ID:[24]
+日志级别：INFO 
+日志描述：

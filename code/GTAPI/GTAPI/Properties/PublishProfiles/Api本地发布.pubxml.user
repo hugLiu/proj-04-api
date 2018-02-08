@@ -1,0 +1,1245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\projs\搜索业务部\03项目\03新疆油田规划图形库二期\开发库\04编码\源代码\项目源码\GTAPIWebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/AppFunctions.json">
+      <publishTime>01/05/2017 15:21:58</publishTime>
+    </File>
+    <File Include="App_Data/AppRoles.json">
+      <publishTime>12/06/2016 09:09:16</publishTime>
+    </File>
+    <File Include="App_Data/AppUsers.json">
+      <publishTime>12/06/2016 09:09:16</publishTime>
+    </File>
+    <File Include="App_Data/CustomStrings.zh-CN.resx">
+      <publishTime>03/31/2017 10:54:16</publishTime>
+    </File>
+    <File Include="App_Data/Metadata.json">
+      <publishTime>01/05/2017 15:21:58</publishTime>
+    </File>
+    <File Include="App_Data/MetadataDefinition.json">
+      <publishTime>02/06/2017 09:12:15</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Areas/Web.config">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="bin/Adapter.loadtest">
+      <publishTime>01/05/2017 10:01:14</publishTime>
+    </File>
+    <File Include="bin/Adapter.webtest">
+      <publishTime>01/05/2017 10:01:14</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/App.config">
+      <publishTime>04/15/2017 01:00:21</publishTime>
+    </File>
+    <File Include="bin/App_Data/MetadataDefinition.json">
+      <publishTime>02/06/2017 09:12:15</publishTime>
+    </File>
+    <File Include="bin/Aspose.Words.dll">
+      <publishTime>10/31/2016 16:37:01</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>12/05/2016 16:42:08</publishTime>
+    </File>
+    <File Include="bin/AxInterop.JoGIS4Lib.dll">
+      <publishTime>07/07/2017 13:47:59</publishTime>
+    </File>
+    <File Include="bin/AxInterop.JoWebLib.dll">
+      <publishTime>04/15/2017 01:02:21</publishTime>
+    </File>
+    <File Include="bin/Data.webtest">
+      <publishTime>01/05/2017 10:01:14</publishTime>
+    </File>
+    <File Include="bin/Dictionaries/ChsDoubleName1.txt">
+      <publishTime>04/15/2017 01:01:18</publishTime>
+    </File>
+    <File Include="bin/Dictionaries/ChsDoubleName2.txt">
+      <publishTime>04/15/2017 01:01:18</publishTime>
+    </File>
+    <File Include="bin/Dictionaries/ChsSingleName.txt">
+      <publishTime>04/15/2017 01:01:18</publishTime>
+    </File>
+    <File Include="bin/Dictionaries/Stopword.txt">
+      <publishTime>04/15/2017 01:01:18</publishTime>
+    </File>
+    <File Include="bin/Dictionaries/Synonym.txt">
+      <publishTime>04/15/2017 01:01:18</publishTime>
+    </File>
+    <File Include="bin/Dictionaries/Wildcard.txt">
+      <publishTime>04/15/2017 01:01:18</publishTime>
+    </File>
+    <File Include="bin/Elasticsearch.Net.dll">
+      <publishTime>12/21/2016 09:59:36</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/11/2013 09:10:04</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/11/2013 09:10:04</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.BLL.dll">
+      <publishTime>07/03/2017 14:15:27</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.Common.dll">
+      <publishTime>07/03/2017 11:03:41</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.DB.dll">
+      <publishTime>04/15/2017 01:02:21</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.Factory.dll">
+      <publishTime>04/15/2017 01:02:21</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.IDAL.dll">
+      <publishTime>04/15/2017 01:02:21</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.Model.dll">
+      <publishTime>07/03/2017 11:01:54</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.OracleDAL.dll">
+      <publishTime>04/15/2017 01:02:21</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.Service.dll">
+      <publishTime>07/03/2017 14:19:17</publishTime>
+    </File>
+    <File Include="bin/GeoMapServer.UC.dll">
+      <publishTime>04/15/2017 01:02:21</publishTime>
+    </File>
+    <File Include="bin/GF.Server.DBUtility.dll">
+      <publishTime>07/03/2017 14:12:57</publishTime>
+    </File>
+    <File Include="bin/GF.Server.dll">
+      <publishTime>07/03/2017 14:12:57</publishTime>
+    </File>
+    <File Include="bin/GF.Server.Factory.dll">
+      <publishTime>07/03/2017 14:12:57</publishTime>
+    </File>
+    <File Include="bin/GF.Server.Oracle.dll">
+      <publishTime>07/03/2017 14:12:57</publishTime>
+    </File>
+    <File Include="bin/GGGXParse.dll">
+      <publishTime>07/03/2017 14:12:58</publishTime>
+    </File>
+    <File Include="bin/GTAPI.dll">
+      <publishTime>07/07/2017 13:48:20</publishTime>
+    </File>
+    <File Include="bin/Interop.JoGIS4Lib.dll">
+      <publishTime>07/07/2017 13:47:57</publishTime>
+    </File>
+    <File Include="bin/ISSHelp.xml">
+      <publishTime>07/07/2017 13:48:20</publishTime>
+    </File>
+    <File Include="bin/Jurassic.AppCenter.Core.dll">
+      <publishTime>04/15/2017 13:07:32</publishTime>
+    </File>
+    <File Include="bin/Jurassic.Com.dll">
+      <publishTime>04/15/2017 13:07:32</publishTime>
+    </File>
+    <File Include="bin/Jurassic.CommonModels.dll">
+      <publishTime>04/15/2017 13:07:32</publishTime>
+    </File>
+    <File Include="bin/Jurassic.CommonModels.EFProvider.dll">
+      <publishTime>04/15/2017 13:07:32</publishTime>
+    </File>
+    <File Include="bin/Jurassic.Log4.dll">
+      <publishTime>04/15/2017 13:07:33</publishTime>
+    </File>
+    <File Include="bin/Jurassic.PKS.Service.dll">
+      <publishTime>07/07/2017 13:47:49</publishTime>
+    </File>
+    <File Include="bin/Jurassic.PKS.WebAPI.dll">
+      <publishTime>07/07/2017 13:47:52</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Data.Center.dll">
+      <publishTime>07/07/2017 13:47:57</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Data.Entities.dll">
+      <publishTime>07/07/2017 13:47:49</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Data.Mock.dll">
+      <publishTime>07/07/2017 13:48:08</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.ETL.dll">
+      <publishTime>07/07/2017 13:47:56</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Index.Mock.dll">
+      <publishTime>07/07/2017 13:47:55</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Index.MockMongo.dll">
+      <publishTime>07/07/2017 13:47:57</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Index.Mongo.dll">
+      <publishTime>07/07/2017 13:47:56</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Infrastructure.dll">
+      <publishTime>07/07/2017 13:47:53</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.MongoDB.dll">
+      <publishTime>07/07/2017 13:47:57</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Search.ES.dll">
+      <publishTime>07/07/2017 13:47:54</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Search.Mongo.dll">
+      <publishTime>07/07/2017 13:47:56</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.SearchMock.dll">
+      <publishTime>07/07/2017 13:47:58</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Semantics.Entities.dll">
+      <publishTime>07/07/2017 09:11:49</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Semantics.SQL.dll">
+      <publishTime>07/07/2017 09:12:18</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.SQLAdapter.dll">
+      <publishTime>07/07/2017 13:48:01</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.SQLAdapter.MockGB.dll">
+      <publishTime>07/07/2017 13:48:05</publishTime>
+    </File>
+    <File Include="bin/Jurassic.So.Submission.Mock.dll">
+      <publishTime>07/07/2017 13:47:58</publishTime>
+    </File>
+    <File Include="bin/Jurassic.UnitTest.Data.dll">
+      <publishTime>07/07/2017 13:48:11</publishTime>
+    </File>
+    <File Include="bin/Jurassic.UnitTest.Semantics.dll">
+      <publishTime>07/07/2017 13:47:49</publishTime>
+    </File>
+    <File Include="bin/Jurassic.UnitTest.Submission.dll">
+      <publishTime>07/07/2017 13:47:49</publishTime>
+    </File>
+    <File Include="bin/Jurassic.UnitTest.Xml.dll">
+      <publishTime>07/07/2017 13:47:53</publishTime>
+    </File>
+    <File Include="bin/Jurassic.WebApi.dll">
+      <publishTime>04/15/2017 13:07:33</publishTime>
+    </File>
+    <File Include="bin/Jurassic.WebFrame.dll">
+      <publishTime>04/15/2017 13:07:33</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>08/25/2016 17:49:59</publishTime>
+    </File>
+    <File Include="bin/MetadataDefinition.json">
+      <publishTime>02/09/2017 14:52:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>08/25/2016 17:36:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CSharp.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>03/26/2015 01:35:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>03/26/2015 01:35:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>08/25/2016 17:39:07</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>08/25/2016 17:39:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>08/25/2016 17:39:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>08/25/2016 17:39:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>08/25/2016 17:39:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Caching.dll">
+      <publishTime>08/25/2016 17:28:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>08/25/2016 17:28:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>08/25/2016 17:27:33</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>08/25/2016 17:48:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>08/25/2016 17:48:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.WebApi.dll">
+      <publishTime>08/25/2016 17:48:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll">
+      <publishTime>10/05/2013 02:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/08/2013 15:15:08</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Bson.dll">
+      <publishTime>10/31/2016 16:37:03</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.Core.dll">
+      <publishTime>10/31/2016 16:37:23</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.dll">
+      <publishTime>10/31/2016 16:37:05</publishTime>
+    </File>
+    <File Include="bin/Nest.dll">
+      <publishTime>12/21/2016 09:59:36</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/13/2016 23:06:14</publishTime>
+    </File>
+    <File Include="bin/Ninject.dll">
+      <publishTime>08/25/2016 17:45:03</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.Common.dll">
+      <publishTime>08/25/2016 17:45:08</publishTime>
+    </File>
+    <File Include="bin/Ninject.Web.WebApi.dll">
+      <publishTime>08/25/2016 17:45:09</publishTime>
+    </File>
+    <File Include="bin/NuGet4Mono.Extensions.dll">
+      <publishTime>04/15/2017 13:06:48</publishTime>
+    </File>
+    <File Include="bin/Oracle.DataAccess.dll">
+      <publishTime>02/28/2010 02:19:56</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>05/25/2017 20:39:04</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.EntityFramework.dll">
+      <publishTime>05/25/2017 14:46:36</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>08/25/2016 17:45:09</publishTime>
+    </File>
+    <File Include="bin/PanGu.dll">
+      <publishTime>07/07/2017 09:11:43</publishTime>
+    </File>
+    <File Include="bin/PanGu.xml">
+      <publishTime>04/15/2017 01:01:18</publishTime>
+    </File>
+    <File Include="bin/PlainElastic.Net.dll">
+      <publishTime>08/25/2016 17:45:13</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>10/05/2013 02:38:22</publishTime>
+    </File>
+    <File Include="bin/SubmissionMap.json">
+      <publishTime>01/05/2017 10:01:01</publishTime>
+    </File>
+    <File Include="bin/submitdata.json">
+      <publishTime>02/08/2017 10:19:39</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>08/25/2016 17:37:20</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.Serialization.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>03/26/2015 01:35:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Abstractions.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.ApplicationServices.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>08/25/2016 17:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.DynamicData.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Entity.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Extensions.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/09/2013 11:05:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>08/25/2016 17:37:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>08/25/2016 17:37:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>08/25/2016 17:37:33</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Tracing.dll">
+      <publishTime>08/25/2016 17:37:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>08/25/2016 17:37:35</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/09/2013 11:04:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>08/25/2016 17:37:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>08/25/2016 17:37:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/09/2013 11:05:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Routing.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Services.dll">
+      <publishTime>08/13/2013 00:19:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/09/2013 11:05:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/09/2013 11:05:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/09/2013 11:05:12</publishTime>
+    </File>
+    <File Include="bin/Terradue.ServiceModel.Ogc.dll">
+      <publishTime>04/15/2017 13:06:49</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>08/25/2016 17:48:28</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.AspNet.Identity.Owin.resources.dll">
+      <publishTime>08/25/2016 17:36:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>03/26/2015 01:35:24</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>03/26/2015 01:35:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll">
+      <publishTime>10/05/2013 04:12:50</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>03/26/2015 01:35:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
+      <publishTime>07/09/2013 11:36:02</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.OData.resources.dll">
+      <publishTime>08/25/2016 17:37:33</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>08/25/2016 17:37:28</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.Tracing.resources.dll">
+      <publishTime>08/25/2016 17:37:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>08/25/2016 17:37:36</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Mvc.resources.dll">
+      <publishTime>07/09/2013 11:34:00</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Optimization.resources.dll">
+      <publishTime>08/25/2016 17:37:15</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Providers.resources.dll">
+      <publishTime>08/25/2016 17:37:00</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Razor.resources.dll">
+      <publishTime>07/09/2013 11:35:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>07/09/2013 11:36:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>07/09/2013 11:35:56</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
+      <publishTime>07/09/2013 11:35:56</publishTime>
+    </File>
+    <File Include="blank.html">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Images1/registerAdapterBar.png">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="log4net.config">
+      <publishTime>04/20/2017 15:50:39</publishTime>
+    </File>
+    <File Include="MetadataDefinition.json">
+      <publishTime>03/17/2017 16:27:07</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/19/2017 13:54:28</publishTime>
+    </File>
+    <File Include="scripts/boot.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/css/bootstrap-theme.min.css">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/css/bootstrap.min.css">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/css/icon-picker.css">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/css/icon-picker.min.css">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/js/bootstrap.min.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/js/iconpicker.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/bootstrap/js/iconpicker.min.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.11.1.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/jquery.ui.widget.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/knockout-3.0.0.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/knockout.mapping-latest.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/locale/en_us.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/locale/zh_cn.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/miniui.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/miniui_full.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/button/button.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/button/disabled.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/button/hover.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/button/icons.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/button/menu_arrow.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/button/pressed.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/button/split-allow-bottom.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/button/split_arrow.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/button.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/close.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/date.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/down.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/error.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/filter.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/hover.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/icon1.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/icon2.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/pressed.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/up.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/buttonedit/_icon3.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/calendar/button.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/calendar/header.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/calendar/months.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/calendar/next.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/calendar/prev.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/datepicker/date.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/dragdrop/drop-add.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/dragdrop/drop-between.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/dragdrop/drop-no.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/dragdrop/drop-over.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/dragdrop/drop-under.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/dragdrop/drop-yes.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/col-move-bottom.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/col-move-top.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/collapse.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/dirty.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/expand.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/footer.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/header.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/icons.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/loading.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/no.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/ok.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/resize.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/sort_asc.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/grid/sort_desc.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/header.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/layout/east.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/layout/header.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/layout/north.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/layout/south.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/layout/west.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/listbox/error.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/listbox/header.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/arrow.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/bottom-arrow.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/checked.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/hallow.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/hmenubg.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/item.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/menubg.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/pressed.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/menu/top-arrow.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/messagebox/icon-error.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/messagebox/icon-info.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/messagebox/icon-question.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/messagebox/icon-warning.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/messagebox/loading.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/mygantt/header.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/navbar/header.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/pager/first.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/pager/last.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/pager/next.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/pager/prev.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/pager/reload.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/panel/header.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/panel/resize.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/splitter/buttons.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/splitter/mini-bottom.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/splitter/mini-left.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/splitter/mini-right.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/splitter/mini-top.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/splitter/resize.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/splitter/resize_h.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/btn.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/col-move-bottom.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/col-move-top.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/datagrid_header_bg.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/datagrid_row_collapse.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/datagrid_row_expand.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/datagrid_sort_asc.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/datagrid_sort_desc.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/datagrid_title_bg.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/dirty.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/header-hover.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/header-pressed.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/header.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/invalid_line.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/loading.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/no.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/ok.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/rowselected.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/row_collapse.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/row_expand.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/sort_asc.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/sort_desc.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supergrid/title_bg.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supertree/arrows.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supertree/collapse.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supertree/expand.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supertree/file.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supertree/folder-open.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supertree/folder.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/supertree/loading.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tabs/allow_left.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tabs/allow_right.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tabs/close.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tabs/down.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tabs/hover.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tabs/tab.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/textbox/error.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/textboxlist/close.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/textboxlist/error.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/textboxlist/loading.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/toolbar/toolbar.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tools/close.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tools/collapse.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tools/expand.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tools/max.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tools/min.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tools/refresh.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tools/restore.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tools/search.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tooltip/wait.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/arrows.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/button.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/collapse.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/collapseline.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/expand.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/expandline.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/file.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/firstandlastcollapse.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/firstandlastexpand.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/firstcollapsenode.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/firstexpandnode.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/folder-open.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/folder.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/hover.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/lastcollapsenode.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/lastexpandnode.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/lastline.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/leaf.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/loading.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/radio_checked.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/radio_unchecked.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/treeline.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/tree/treenodeline.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/treegrid/collapse.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/treegrid/expand.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/treegrid/file.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/treegrid/folder.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/treegrid/loading.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/window/footer.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/window/header.png">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/_pager/first.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/_pager/last.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/_pager/next.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/images/_pager/prev.gif">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/default/miniui.css">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/miniui/themes/icons.css">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/mvcParamBinding.js">
+      <publishTime>10/12/2016 17:36:32</publishTime>
+    </File>
+    <File Include="scripts/portal/portal.css">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/portal/portal.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/adapters/standalone-framework.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/adapters/standalone-framework.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/highcharts-3d.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/highcharts-3d.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/highcharts-all.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/highcharts-more.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/highcharts-more.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/highcharts.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/highcharts.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/canvas-tools.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/canvas-tools.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/data.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/data.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/drilldown.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/drilldown.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/exporting.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/exporting.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/funnel.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/funnel.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/heatmap.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/heatmap.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/no-data-to-display.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/no-data-to-display.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/solid-gauge.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/highcharts/modules/solid-gauge.src.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/swfobject/expressinstall.swf">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/swfobject/swfobject.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="scripts/thirdlibs/swfobject/swfupload.js">
+      <publishTime>10/31/2016 11:03:07</publishTime>
+    </File>
+    <File Include="scripts/webframe-1.0.js">
+      <publishTime>10/09/2016 19:35:03</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/25/2016 16:05:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/07/2017 13:52:56</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
